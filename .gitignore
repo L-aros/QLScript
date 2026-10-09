@@ -1,0 +1,32 @@
+# Credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# Runtime sessions and backups
+*_token_cache.json
+*token*cache*.json
+pdd-cache-*.json
+*.cookies
+*.cookie
+*.session
+*.log
+*.bak
+*.backup
+.private/
+# Local analysis: not cleared for public distribution
+/analysis/
+/daily/kuaishou.js
+# Runtime/developer artifacts
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
